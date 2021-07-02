@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <title>FuseBloom Redesign 2021</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="fusebloomLogo.png" sizes="32x32" type="image/png"> 
+    <!-- import Lora font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <!-- import Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- import Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <nav id="navbar_top" class="navbar navbar-light bg-white navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>    
+          </button>
+          <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+          <a href="index.html"><img src="fusebloomLogo.png" alt="FuseBloom logo" class="logo"/></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mission">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Process</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="home" class="home container-fluid">
+      <h1 class="slide">You want to go to the moon.<br></h1>
+      <h1 class="slide second">We’re here to give you a shot.</h1>
+      <!-- span tag allows you to mark up text with a certain colour for emphasis -->
+      <h2>FuseBloom brings you the internships you want as a high schooler. Custom curated for you, 100% free.</h2>
+      <img src="to_the_moon.svg">
+      <img class="arrow bounce" src="down_arrow.svg">
+    </div>
+
+    <div id="mission" class="mission container-fluid">
+      <h1>Our Mission</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="fusebloom_search.svg">
+        </div>
+        <div class="col-lg-6">
+          <h2>You have big dreams. But as a high schooler, it’s tough to find internships where you can use your skills to change the world. We know how you feel searching for hours on end for programs, so we’ve designed a platform that will enable you to experience next level opportunities from next level people.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="fusebloom_select.svg">
+        </div>
+        <div class="col-lg-6">
+          <h2>When our companies are looking for interns, they’re looking for hardworking, driven people like you who will be able to persevere past problems. Signing up for FuseBloom gives you access to a wealth of internships. All custom curated to your skills, location, and interests.</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="fusebloom_interview.svg">
+        </div>
+        <div class="col-lg-6">
+          <h2>For companies who are searching for high school interns, we have a network of bright, talented students from around the world with skills ranging from front end web development to social media marketing. We understand that finding qualified interns is tough, so we’re connecting the next generation of innovators to next generation companies like you.</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="statistics" class="statistics container-fluid">
+      <div class="col-md-4">
+        <h1 id="value1" data-animated="false">100+</h1>
+        <h2>People receiving opportunities in the first 36 hours</h2>
+      </div>
+      <div class="col-md-4">
+        <h1 id="value2" data-animated="false">400+</h1>
+        <h2>People receiving opportunities in the first month</h2>
+      </div>
+      <div class="col-md-4">
+        <h1 id="value3" data-animated="false">800+</h1>
+        <h2>People receiving opportunities currently</h2>
+      </div>
+    </div>
+
+    <div id="reviews" class="reviews container-fluid">
+      <h1>What People Have Said About Us</h1>
+      <div class="col-lg-6">
+        <div class="rectangle1">
+          <h2>Students</h2>
+          <h3>“I feel more supported as a high school student having access to these opportunities because of this newsletter. It makes me feel as though I am not alone in the journey of completing high school and entering college! Thank you for offering me that support!”</h3>
+          <h3 class="right">- Anon</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="rectangle2">
+          <h2>Startups</h2>
+          <h3>“We must’ve received at least 20 leads within two days, of which 12 turned into interns. It’s incredible how impressive some high school students are. Some of our interns came in knowing nothing about Facebook marketing, and within 3 weeks are delivering stellar results to our top-line growth metrics. Can’t thank FuseBloom enough!”</h3>
+          <h3 class="right">- Jaideep Patil, Founder of Explorastay</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="trusted" class="trusted container-fluid">
+      <h1>Trusted By</h1>
+      <div class="col-lg-6">
+        <img class="left" src="explorastay.png">
+      </div>
+      <div class="col-lg-6">
+        <img class="right" src="umaryland.png">
+      </div>
+    </div>
+
+    <div id="process" class="process container-fluid">
+      <h1>How It Works For Students</h1>
+      <div class="col-md-4">
+        <img src="fusebloom_form.svg">
+        <h2>Step 1</h2>
+        <h3>Fill out our student form <a href="https://forms.gle/Dwu89qNF5iCf2sGV8">here.</a></h3>
+        <!-- Replace with updated version in personal fusebloom drive -->
+      </div>
+      <div class="col-md-4">
+        <img src="fusebloom_fill.svg">
+        <h2>Step 2</h2>
+        <h3>Select your skills and location.</h3>
+      </div>
+      <div class="col-md-4">
+        <img src="fusebloom_success.svg">
+        <h2>Step 3</h2>
+        <h3>Success! Custom curated opportunities will now be delivered to you. </h3>
+      </div>
+    </div>
+
+    <div id="process2" class="process2 container-fluid">
+      <h1>How It Works For Companies</h1>
+      <div class="col-md-4">
+        <img src="fusebloom_company_form.svg">
+        <h2>Step 1</h2>
+        <h3>Fill out our company form 
+          <a href="https://forms.gle/H8spEHHkHn3cujDy8">here.</a>
+        </h3>
+      </div>
+      <div class="col-md-4">
+        <img src="fusebloom_choose.svg">
+        <h2>Step 2</h2>
+        <h3>Talk about your company’s mission, internship positions, and deadlines.</h3>
+      </div>
+      <div class="col-md-4">
+        <img src="fusebloom_options.svg">
+        <h2>Step 3</h2>
+        <h3>If we choose to feature you, you will receive offers from our interested students.</h3>
+      </div>
+    </div>
+
+    <div id="end" class="end container-fluid">
+      <h1>Happy Interning!</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="fusebloom_interning.svg">
+        </div>
+        <div class="col-lg-6">
+          <h2>If you have any questions for us, please reach out to fusebloom.liftoff@gmail.com! We will be happy to help you with what you want to know or hear suggestions about how your experience can be improved on our platform. </h2>
+        </div>
+      </div>
+
+      <p class="copyright">© Copyright 2021 - FuseBloom. All rights reserved.</p>
+      
+      <div class="social-media-row">
+        <div class="column">
+          <a href="https://www.instagram.com/fuse.bloom/"><img src="fusebloom_instagram.svg"></a>
+        </div>
+        <div class="column">
+          <a href="https://www.facebook.com/FuseBloom-106770617786217"><img src="fusebloom_facebook.svg"></a>
+        </div>
+        <div class="column">
+          <a href="https://www.linkedin.com/company/fusebloom">
+          <img src="fusebloom_linkedin.svg"></a>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
