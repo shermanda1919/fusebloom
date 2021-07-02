@@ -8,6 +8,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   position: sticky;
   border: 0;
+  z-index: 5;
 }
 
 .nav-link {
@@ -52,6 +53,28 @@ nav {
   margin-left: 25px;
   width: 80px;
   height: 80px;
+}
+
+#img {
+  height: 50%;
+}
+
+#navbar_top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-toggle:hover {
+  background-color: transparent !important;
+}
+
+.navbar-toggle:active {
+  background-color: transparent !important;
+}
+
+.navbar-toggle:focus {
+  background-color: transparent !important;
 }
 
 /* li {
